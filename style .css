@@ -1,13 +1,53 @@
 body {
-    background-color: lightblue;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
   }
   
-  h1 {
-    color: white;
-    text-align: center;
-  }
-  
-  p {
-    font-family: verdana;
-    font-size: 20px;
-  }
+.main{
+  width: 100%;
+}
+
+nav{
+  width: 100%;
+  background-color:black;
+  height: 80px;
+  line-height: 80 px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo a{
+  font-size: 30 px;
+  color: red; 
+  font-weight: bold; 
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 17 px;
+  transition: 0.5s all ease; 
+}
+
+ul{
+  margin: 0px;
+}
+
+ul li{
+  float: left;
+  padding: 0px 10px;
+  list-style: none;
+}
+
+ul li a:hover{
+  color:red;
+}
+
+/*
+.header{
+  background-image: url('____.jpg');
+  background-position:center;
+  background-size: cover; 
+  background-repeat:no-repeat; 
+  height: 100vh;
+}
+*/
