@@ -1,2 +1,2 @@
-# palermo.github.io
+# namwandk.github.io
 Restaurant page 
