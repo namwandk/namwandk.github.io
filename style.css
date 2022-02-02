@@ -23,32 +23,3 @@ ul li{
   transform: translateY(-50%);
   text-align: center;
 }
-/**
-body {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  
-.main{
-  width: 100%;
-}
-
-.sec2 {
-  width:100%;
-  overflow: auto;
-}
-
-ul li{
-  float: left;
-  padding: 0px 0px;
-  list-style: none;
-  width: 11.11%;
-}
-
-.sec3 {
-  position: absolute;
-  left:50%;
-  top: 500px;
-}
-**/
