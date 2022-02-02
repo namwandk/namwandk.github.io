@@ -1,3 +1,29 @@
+*{
+  margin: 10 px;
+  padding:0 px;
+  text-align:center;
+}
+
+.sec2 {
+  width:100%;
+  overflow:auto;
+}
+
+ul li{
+  float:left;
+  padding: 0px 0px;
+  list-style: none;
+  width: 11.11%;
+}
+
+.sec3 {
+  width:100%;
+  position:absolute;
+  top: 80%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+/**
 body {
     margin: 0px;
     padding: 0px;
@@ -20,8 +46,9 @@ ul li{
   width: 11.11%;
 }
 
-h2 .sub {
+.sec3 {
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left:50%;
+  top: 500px;
 }
+**/
