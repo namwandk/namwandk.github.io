@@ -10,12 +10,12 @@
 }
 
 img{
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
 ul li{
-  float:left;
+  float:right;
   padding: 0px 0px;
   list-style: none;
   width: 11.11%;
