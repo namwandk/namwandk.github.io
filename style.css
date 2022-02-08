@@ -1,7 +1,7 @@
 *{
   margin: 10 px;
   padding:0 px;
-  text-align:center;
+  
 }
 
 .sec2 {
@@ -23,9 +23,38 @@ ul li{
 
 .sec3 {
   width:100%;
-  
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+}
+
+.sec4 {
+  width:70%;
   position:absolute;
   top: 80%;
   transform: translateY(-50%);
-  text-align: center;
+  text-align: left;
 }
+
+.first-text{
+  position: absolute;
+  top: 700px;
+  left: 0px;
+}
+
+.sec5 {
+  width:62%;
+  position:absolute;
+  left:73%;
+  transform: translateY(-100%);
+  text-align: right;
+}
+
+.second-text{
+  position: absolute;
+  top: 700px;
+  left:0;
+}
+
+
