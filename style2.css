@@ -590,15 +590,29 @@ ion-icon[name="caret-back-outline"]{
 }
 
 #other-work-section{
-    margin-top:10%;
-    width:50%;
+    margin-top:4%;
+    margin-bottom:4%;
+    width:25%;
     height:auto;
+    transition:all .2s ease-in-out;
+    cursor:pointer;
+    margin-left:12%;
 }
 
-
+#other-work-section-header{
+    margin-left: 12%;
+    margin-right:12%;
+    margin-top:10%;
+}
 
 #other-work-img img{
     width:100%;
+    
+}
+
+#other-work-section:hover{
+    transform:scale(1.05) ;
+    box-shadow:0 5px 10px rgba(0,0,0,.2);
 }
 
 /**-------------------end of restaurant work page--- -------------------------**/
@@ -664,15 +678,32 @@ ion-icon[name="caret-back-outline"]{
     margin-bottom:4%;
 }
 
-#other-work-section-2 {
+#other-work-section-2-header{
+    margin-left: 12%;
+    margin-right:12%;
     margin-top:10%;
+}
+#other-work-section-2 {
+    margin-top:4%;
     width:50%;
     height:auto;
+    width:25%;
+    height:auto;
+    transition:all .2s ease-in-out;
+    cursor:pointer;
+    margin-left:12%;
+    margin-right:12%;
 }
 
 
 #other-work-img-2 img{
     width:100%;
+}
+
+
+#other-work-section-2:hover{
+    transform:scale(1.05) ;
+    box-shadow:0 5px 10px rgba(0,0,0,.2);
 }
 
 /**-----------------------portfoliowork page---------------------------------**/
