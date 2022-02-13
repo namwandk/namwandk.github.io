@@ -34,7 +34,7 @@ html{
     top:0;
     left:0;
     right:0;
-    background:rgba(173,216,230,75%);
+    background:rgba(0,0,0,75%);
     box-shadow:0 5px 10px rgba(0,0,0,.1);
 }
 
@@ -73,8 +73,8 @@ html{
 }
 
 #nav-container #nav ul li a:hover{
-    background:lightblue;
-    color:grey;
+    background:rgba(0,0,0,85%);
+    color:rgba(211,211,211,90%);
 }
 
 #nav ul li ul{
@@ -83,7 +83,7 @@ html{
     position:absolute;
     left:0;
     width:150px;
-    background:lightblue;
+    background:rgba(0,0,0,75%);
     display:none;
 }
 
@@ -118,8 +118,8 @@ html{
         left:0;
         right:0;
         margin:0 12%;
-        background:rgba(173,216,230,75%);
-        border-top: 1px solid black;
+        background:rgba(0,0,0,75%);
+        border: 1px solid white;
         display:none;
     }
 
@@ -133,7 +133,7 @@ html{
     }
 
     #nav-bar #nav ul li ul li{
-        background:lightblue;
+        background:rgba(0,0,0,85%);
     }
 
     #menu-bar:checked ~ #nav{
@@ -160,11 +160,18 @@ html{
 
 /**intro section**/
 #intro{
-    background-color:lightgrey;
+    background-color:black;
     height:100vh;
     display:flex;
     align-items:center;
     justify-content: center;
+    flex-direction:column;
+}
+
+#intro h2, #intro h3{
+    margin: 2% 0;
+    border:solid purple;
+    color:white;
 }
 /**end of intro section**/
 
