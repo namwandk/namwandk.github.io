@@ -1,0 +1,345 @@
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport"
+        content = "width=device-width, initial-scale = 1.0">
+        <title>Portfolio</title>
+        <link rel ="stylesheet" href="style2.css">
+        <script src="https://kit.fontawesome.com/e33338730a.js" crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </head>
+
+    <body>
+        <!--nav bar-->
+        <section id="nav-container">
+            <section id="nav-bar">
+                <h1>Namwan Kittivatcharapong</h1>
+                <input type="checkbox" id="menu-bar">
+                <label for="menu-bar">Menu</label>
+                <section id=nav>
+                    <ul class="menu">
+                        <li><a href="home2.html">Home</a></li>
+                        <li><a href="#">Work  <span class="arrow"></span></a>
+                            <ul class="submenu">
+                                <li><a href="work_1.html">Restaurant Website</a></li>
+                                <li><a href="work_2.html">Portfolio Website</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Play  <span class="arrow"></span></a>
+                            <ul class="submenu">
+                                <li><a href="play_1.html">Generative Art</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about_1.html">About</a></li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+        <!--end of nav bar-->
+
+        
+        <!--intro-->
+        <section id="intro-container">
+            <section id="intro">
+                <h1>Intro</h1>
+            </section>
+        </section>
+        <!--end of intro-->
+
+        <!--work 
+
+        <section id="slide-header">
+            <h2>Work</h2>
+        </section>
+        <section id="component-container">
+            <section id="component">
+                
+                <section id="slide-arrow">
+                    <ion-icon name="caret-back-outline" onclick="goLeft()"></ion-icon>
+                </section>
+
+                <section id="carousel">
+                    <section id="slide">
+                        <section id="slide1">
+                            <section id="slide1-img">
+                                <img src=img1.png>
+                            </section>
+                            <section id="slide1-txt">
+                                <h2>Restaurant Website</h1>
+                                <h3>Learn more</h2>
+                            </section>
+                        </section>
+                        <section id="slide2">
+                            <section id="slide2-img">
+                                <img src=img3.png>
+                            </section>
+                            <section id="slide2-txt">
+                                <h2>Restaurant Website</h1>
+                                <h3>Learn more</h2>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section id="slide-arrow">
+                    <ion-icon name="caret-forward-outline" onclick="goRight()"></ion-icon>
+                </section>
+
+            </section>
+        </section>
+            <script>
+                function goRight(){
+                    document.querySelector("#carousel").scrollLeft +=490;
+                }
+
+                function goLeft(){
+                    document.querySelector("#carousel").scrollLeft -=490;
+                }
+
+            </script>
+        
+
+        
+
+        <section id="slide-header-2">
+            <h2>Play</h2>
+        </section>
+        <section id="bigg">
+        <section id="component-container-2">
+            <section id="component-2">
+                
+                <section id="slide-arrow-2">
+                    <ion-icon name="caret-back-outline" onclick="goLeft2()"></ion-icon>
+                </section>
+
+                <section id="carousel-2">
+                    <section id="slide-2">
+                        <section id="slide1-2">
+                            <section id="slide1-img-2">
+                                <img src=img2.png>
+                            </section>
+                            <section id="slide1-txt-2">
+                                <h2>Restaurant Website</h1>
+                                <h3>Learn more</h2>
+                            </section>
+                        </section>
+                        <section id="slide2-2">
+                            <section id="slide2-img-2">
+                                <img src=img2.png>
+                            </section>
+                            <section id="slide2-txt-2">
+                                <h2>Restaurant Website</h1>
+                                <h3>Learn more</h2>
+                            </section>
+                        </section>
+                        <section id="slide3">
+                            <section id="slide3-img">
+                                <img src=img2.png>
+                            </section>
+                            <section id="slide3-txt">
+                                <h2>Restaurant Website</h1>
+                                <h3>Learn more</h2>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section id="slide-arrow-2">
+                    <ion-icon name="caret-forward-outline" onclick="goRight2()"></ion-icon>
+                </section>
+
+            </section>
+        </section>
+            <script>
+                function goRight2(){
+                    document.querySelector("#carousel-2").scrollLeft +=490;
+                }
+
+                function goLeft2(){
+                    document.querySelector("#carousel-2").scrollLeft -=490;
+                }
+                /**
+                let width=0;
+                let box = document.querySelector("#slide-2");
+
+                if (width=0 ||width!=box.clientWidth){
+
+                width = box.clientWidth;
+                document.write(width);
+
+                function goRight2(){
+                    document.querySelector("#carousel-2").scrollLeft +=width;
+                }
+
+                function goLeft2(){
+                    document.querySelector("#carousel-2").scrollLeft -=width;
+                }
+            
+            }   
+            **/
+
+            </script>
+
+        </section>
+
+        end of work show-->
+        
+        <!--work show-->
+        
+        <!--end of work show-->
+
+
+        
+        <!--end of play show-->
+
+        <!--
+        
+        <section id="play-container">
+            <section id="play-header">
+                <h1>Play</h1>
+            </section>
+            <section id="play">
+                <section id="play-arrow">
+                    <
+                </section>
+                <section id="play-img">
+                    <img src=img2.png>
+                </section>
+                <section id="play-text">
+                    <h2>Generative Art</h2>
+                    <h3>Learn More</h3>
+                </section>
+                <section id="play-arrow">
+                    >
+                </section>
+            </section>
+        </section>
+      
+    -->
+       
+    <!--
+    <section id=carousel-container>
+        <section id="carousel" data-carousel>
+            <section id="button">
+                <ion-icon name="caret-back-outline" data-carousel-button="prev"></ion-icon>
+            </section>
+            <section id="slide-container">
+            <ul data-slides>
+            <li class="slide" data-active>
+                <section id="slide-1-img">
+                    <img src=img1.png alt="work-img-1">
+                </section>
+                <section id="slide-1-text">
+                    <h2>Restaurant Website</h2>
+                    <h3>Learn more</h3>
+                </section>
+            </li>
+            <li class="slide">
+                <section id="slide-2-img">
+                    <img src=img3.png alt="work-img-2">
+                </section>
+                <section id="slide-2-text">
+                    <h2>Portfolio Website</h2>
+                    <h3>Learn more</h3>
+                </section>
+            </li>
+            </ul>
+            </section>
+        <section id="button">
+            <ion-icon name="caret-forward-outline" data-carousel-button="next"></ion-icon>
+        </section>
+        </section>
+    </section>
+
+    <script>
+        const buttons = document.querySelectorAll("[data-carousel-button]")
+
+        buttons.forEach(button => {
+            button.addEventListener("click", () => {
+                const offset = button.dataset.carouselButton === "next" ? 1 : -1
+                const slides = button
+                    .closest("[data-carousel]")
+                    .querySelector("[data-slides]")
+
+                const activeSlide = slides.querySelector("[data-active]")
+                let newIndex = [...slides.children].indexOf(activeSlide) + offset
+                if (newIndex < 0) newIndex = slides.children.length - 1
+                if (newIndex >= slides.children.length) newIndex = 0
+
+                slides.children[newIndex].dataset.active = true
+                delete activeSlide.dataset.active
+            })
+        })
+    </script>
+   end of work show-->
+    
+   <section id="show-header">
+        <h1>Work</h1>
+    </section>
+
+   <!--show work-->
+   <section id="show-restaurant-container" onclick="goPage2()">
+       <section id="show-restaurant">
+           <section id="show-res-left">
+               <img src=img1.png>
+           </section>
+
+           <section id="show-res-right">
+               <h2>Restaurant website</h2>
+               <h3>Learn more</h3>
+           </section>
+       </section>
+   </section>
+
+   <script>
+    function goPage2(){
+        window.location="work_1.html";
+    }
+</script>
+   <!--end of show work-->
+
+   <!--show work 2-->
+   <section id="show-portfolio-container" onclick="goPage()">
+        <section id="show-portfolio">
+            <section id="show-port-left">
+                <img src=img3.png>
+            </section>
+
+            
+                <section id="show-port-right">
+                    <h2>Portfolio website</h2>
+                    <h3>Learn more</h3>
+                </section>
+            
+        </section>
+    </section>
+
+    <script>
+        function goPage(){
+            window.location="work_2.html";
+        }
+    </script>
+<!--end of show work-->
+
+
+        <!--contact-->
+
+        <section id="contact-container">
+            <section id="contact">
+                <section id="contact-linked">
+                    <a class="social-icon" href="https://www.linkedin.com/in/namwan-kittivatcharapong-a8b7551a1/">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </section>
+                <section id="contact-email">
+                    <a class="social-icon" href="mailto:n.kittivatcharapong@gmail.com">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </a>
+                </section>
+            </section>
+        </section>
+       
+        <!--end of contact-->
+    </body>
+</html>

@@ -5,27 +5,45 @@
         <meta name="viewport"
         content = "width=device-width, initial-scale = 1.0">
         <title>Portfolio</title>
-        <link rel = "stylesheet" href="style.css">
+        <link rel ="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/e33338730a.js" crossorigin="anonymous"></script>
     </head>
 
 <body>
 
-    <!--Header-->
+    
         
+     <!--Header-->
         <section id="header">
             <div class= "nav">
                 <label class="brand">Namwan Kittivatcharapong</label>
+                <input type="checkbox" id="check">
                 <ul class="mainMenu">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="work.html">Work</a></li>
-                    <li><a href="play.html">Play</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>  
+                    <li><a href="home.html" class="menu-link">Home</a></li>
+                    <li class="has-dropdown">
+                        <a href="#" class="menu-link">Work  <span class="arrow"></span></a>
+                    <ul class="submenu">
+                        <li><a href="work.html" class="menu-link">restaurant website</a></li>
+                        <li><a href="work2.html" class="menu-link">portfolio website</a></li>
+                    </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#" class="menu-link">Play
+                             <span class="arrow"></span>
+                        </a>
+                    <ul class="submenu">
+                        <li><a href="play.html" class="menu-link">generative art</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="about.html" class="menu-link" >About</a></li>
+                </ul>
+                <label for= "check" class="checkbtn">
+                    <i class='fas fa-bars'></i>
+                </label>  
             </div>     
         </section>
-        
+    <!--end of Header-->
 
-    <!--End of Header-->
     <!--Home Intro-->
         <section id="intro">
             <div class="container">
@@ -37,6 +55,47 @@
             </div>
         </section>
     <!--End of Home Intro-->
+
+    <section aria-label="Newest Photos">
+        <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+          <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+          <ul data-slides>
+            <li class="slide" data-active>
+              <img src="https://source.unsplash.com/78A265wPiO4" alt="Nature Image #1">
+            </li>
+            <li class="slide">
+              <img src="https://source.unsplash.com/eOpewngf68w" alt="Nature Image #2">
+            </li>
+            <li class="slide">
+              <img src="https://source.unsplash.com/ndN00KmbJ1c" alt="Nature Image #3">
+            </li>
+          </ul>
+        </div>
+
+      </section>
+
+      <script>
+
+        const buttons = document.querySelectorAll("[data-carousel-button]")
+        
+        buttons.forEach(button => {
+          button.addEventListener("click", () => {
+            const offset = button.dataset.carouselButton === "next" ? 1 : -1
+            const slides = button
+              .closest("[data-carousel]")
+              .querySelector("[data-slides]")
+        
+            const activeSlide = slides.querySelector("[data-active]")
+            let newIndex = [...slides.children].indexOf(activeSlide) + offset
+            if (newIndex < 0) newIndex = slides.children.length - 1
+            if (newIndex >= slides.children.length) newIndex = 0
+        
+            slides.children[newIndex].dataset.active = true
+            delete activeSlide.dataset.active
+          })
+        })
+              </script>
 
     <!--Work Section-->
 
