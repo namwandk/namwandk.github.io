@@ -50,6 +50,7 @@ html{
 
 #nav-bar h1{
     font-size:20px;
+    font-weight:500;
     color:white;
 }
 
@@ -73,7 +74,7 @@ html{
 }
 
 #nav-container #nav ul li a:hover{
-    background:rgba(0,0,0,85%);
+    background:rgba(0,0,0,70%);
     color:rgba(211,211,211,90%);
 }
 
@@ -119,7 +120,6 @@ html{
         right:0;
         margin:0 12%;
         background:rgba(0,0,0,75%);
-        border: 1px solid white;
         display:none;
     }
 
@@ -166,7 +166,7 @@ html{
     height: 100%;
     background: radial-gradient(circle at center,white, lightgrey,grey,black);
     background-size:400%;
-    animation: colorChange 25s infinite alternate;
+    animation: colorChange 26s infinite alternate;
 }
 
 @keyframes colorChange{
@@ -182,33 +182,37 @@ html{
     margin:0 12%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items:center;
 
 }
 
 #title-1{
     /**border:solid green;**/
     width:25%;
+    transform:translateY(20%);
 }
 
 #title-2{
    /** border:solid red;**/
+   transform:translateY(20%);
     width:75%;
     margin-left:5%;
 }
 
 #title-1 h2{
-    color:lightgrey;
-    font-size:5rem;
+    color:rgb(82.35%,82.35%,82.35%);
+    font-size:50px;
+    font-weight:lighter;
     /**border:solid pink;**/
     width:100%;
     height:100%;
 }
 
-#title-2 h3{
-    color:rgb(211,211,211);
+#title-2 h2{
+    font-size:50px;
+    font-weight:lighter;
+    color:rgb(82.35%,82.35%,82.35%);
     font-style:italic;
-    font-size:5rem;
     /**border:solid pink;**/
     width:100%;
     height:100%;
@@ -222,15 +226,15 @@ html{
         font-size:4rem;
     }
 
-    #title-2 h3{
+    #title-2 h2{
         font-size:4rem;
     }
 
 }
-@media(max-width:914px){
+@media(max-width:942px){
 
     #blank-space-2{
-        margin-bottom:50%;
+        margin-bottom:45%;
     }
 
     #intro-2{
@@ -248,17 +252,16 @@ html{
     }
 
     #title-1 h2{
-        font-size:4rem;
     }
 
     #title-2{
-        margin-top:4%;
         width:100%;
-        height:auto;
+        margin-top:4%;
+        margin-left:0%;
+       
     }
 
-    #title-2 h3{
-        font-size:4rem;
+    #title-2 h2{
     }
 
 
