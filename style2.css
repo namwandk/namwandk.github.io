@@ -884,45 +884,25 @@ ion-icon[name="caret-back-outline"]{
 
 /**------------------------restaurant work page---------------------------------**/
 
-#workpage-title-section h1{
-    font-size:40px;
-    font-weight:400;
-    color:rgba(0,0,0,75%);
-}
 
-#res-container{
-    overflow-x:hidden;
-}
 
 #blank-space{
+    border: solid red;
     width:100vw;
     height:100px;
 }
 
-#res-container{
-  height:max-content;
-  margin-left:12%;
-  margin-right:12%;
-  display:flex;
-  flex-direction: column;
-}
-
-#approach-img img{
-    height:auto;
-    width:100%;
-}
-
-#prototype-img img{
-    height:auto;
-    width:100%;
-}
-
-#wireframe-img img{
-    height:auto;
-    width:100%;
+#workpage-title-section h1{
+    font-size:40px;
+    font-weight:400;
+    color:rgba(0,0,0,75%);
+    margin-left:12%;
+    margin-right:12%;
 }
 
 #restaurantweb-section h1{
+    margin-left:12%;
+    margin-right:12%;
     color:rgba(0,0,0,75%);
     margin-top:4%;
     font-size:40px;
@@ -930,31 +910,69 @@ ion-icon[name="caret-back-outline"]{
 }
 
 #brief-section h1{
+    margin-left:12%;
+    margin-right:12%;
     color:rgba(0,0,0,75%);
     margin-top:4%;
     font-size:40px;
     font-weight:lighter;
+}
+
+#brief-section p{
+    margin-left:12%;
+    margin-right:12%;
 }
 
 #approach-section h1{
+    margin-left:12%;
+    margin-right:12%;
     color:rgba(0,0,0,75%);
     font-size:40px;
     font-weight:lighter;
     margin-top:4%;
+}
+
+#approach-img{
+    margin-left:12%;
+    margin-right:12%;
+}
+
+#approach-img img{
+    height:auto;
+    width:100%;
 }
 
 #wireframe-section h1{
+    margin-left:12%;
+    margin-right:12%;
     color:rgba(0,0,0,75%);
     font-size:40px;
     font-weight:lighter;
     margin-top:4%;
 }
 
+#wireframe-img{
+    margin-left:12%;
+    margin-right:12%;
+}
+
+#wireframe-img img{
+    height:auto;
+    width:100%;
+}
+
 #color-section h1{
+    margin-left:12%;
+    margin-right:12%;
     color:rgba(0,0,0,75%);
     font-size:40px;
     font-weight:lighter;
     margin-top:4%;
+}
+
+#color-section p{
+    margin-left:12%;
+    margin-right:12%;
 }
 
 #prototype-section h1{
@@ -964,18 +982,26 @@ ion-icon[name="caret-back-outline"]{
     margin-top:4%;
 }
 
+#prototype-img img{
+    height:auto;
+    width:100%;
+}
+
 #prototype-section {
+    margin-left:12%;
+    margin-right:12%;
     margin-bottom:4%;
 }
 
 #other-work-section{
+    border:solid red;
     margin-top:4%;
     margin-bottom:4%;
     width:25%;
-    height:auto;
     transition:all .2s ease-in-out;
-    cursor:pointer;
+    border-radius:2rem;
     margin-left:12%;
+    margin-right:12%;
 }
 
 #other-work-section-header{
@@ -984,12 +1010,13 @@ ion-icon[name="caret-back-outline"]{
     margin-top:10%;
 }
 
-#other-work-img img{
+#other-work-section img{
     width:100%;
-    
+    border-radius:2rem;
 }
 
 #other-work-section:hover{
+    cursor:pointer;
     transform:scale(1.05) ;
     box-shadow:0 5px 10px rgba(0,0,0,.2);
 }
@@ -997,31 +1024,74 @@ ion-icon[name="caret-back-outline"]{
 /**-------------------end of restaurant work page--- -------------------------**/
 /**-----------------------portfoliowork page---------------------------------**/
 
-#port-container{
-    overflow-x:hidden;
-}
-
-#blank-space{
+#blank-space-two{
+    border:solid green;
     width:100vw;
     height:100px;
 }
 
-#port-container{
-    height:max-content;
+#workpage-title-section-2 h1{
+    font-size:40px;
+    font-weight:400;
+    color:rgba(0,0,0,75%);
     margin-left:12%;
     margin-right:12%;
-    display:flex;
-    flex-direction: column;
-  }
+}
+
+#portfolioweb-section h1{
+    margin-left:12%;
+    margin-right:12%;
+    color:rgba(0,0,0,75%);
+    margin-top:4%;
+    font-size:40px;
+    font-weight:lighter;
+}
+
+#brief-section-2 h1{
+    margin-left:12%;
+    margin-right:12%;
+    color:rgba(0,0,0,75%);
+    margin-top:4%;
+    font-size:40px;
+    font-weight:lighter;
+}
+
+#brief-section-2 p{
+    margin-left:12%;
+    margin-right:12%;
+}
+
+#approach-section-2 h1{
+    margin-left:12%;
+    margin-right:12%;
+    color:rgba(0,0,0,75%);
+    font-size:40px;
+    font-weight:lighter;
+    margin-top:4%;
+}
+
+#approach-img-2{
+    margin-left:12%;
+    margin-right:12%;
+}
 
 #approach-img-2 img{
     height:auto;
     width:100%;
 }
 
-#prototype-img-2 img{
-    height:auto;
-    width:100%;
+#wireframe-section-2 h1{
+    margin-left:12%;
+    margin-right:12%;
+    color:rgba(0,0,0,75%);
+    font-size:40px;
+    font-weight:lighter;
+    margin-top:4%;
+}
+
+#wireframe-img-2{
+    margin-left:12%;
+    margin-right:12%;
 }
 
 #wireframe-img-2 img{
@@ -1029,31 +1099,35 @@ ion-icon[name="caret-back-outline"]{
     width:100%;
 }
 
-#portfolioweb-section h1{
-    margin-top:4%;
-}
-
-#brief-section-2 h1{
-    margin-top:4%;
-}
-
-#approach-section-2 h1{
-    margin-top:4%;
-}
-
-#wireframe-section-2 h1{
-    margin-top:4%;
-}
-
 #color-section-2 h1{
+    margin-left:12%;
+    margin-right:12%;
+    color:rgba(0,0,0,75%);
+    font-size:40px;
+    font-weight:lighter;
     margin-top:4%;
+}
+
+#color-section-2 p{
+    margin-left:12%;
+    margin-right:12%;
 }
 
 #prototype-section-2 h1{
+    color:rgba(0,0,0,75%);
+    font-size:40px;
+    font-weight:lighter;
     margin-top:4%;
 }
 
+#prototype-section-2-img img{
+    height:auto;
+    width:100%;
+}
+
 #prototype-section-2 {
+    margin-left:12%;
+    margin-right:12%;
     margin-bottom:4%;
 }
 
@@ -1062,26 +1136,25 @@ ion-icon[name="caret-back-outline"]{
     margin-right:12%;
     margin-top:10%;
 }
-#other-work-section-2 {
+
+#other-work-section-2{
     margin-top:4%;
-    width:50%;
-    height:auto;
+    margin-bottom:4%;
     width:25%;
-    height:auto;
     transition:all .2s ease-in-out;
-    cursor:pointer;
+    border-radius:2rem;
     margin-left:12%;
     margin-right:12%;
 }
 
-
-#other-work-img-2 img{
+#other-work-section-2 img{
     width:100%;
+    border-radius:2rem;
 }
-
 
 #other-work-section-2:hover{
     transform:scale(1.05) ;
+    cursor:pointer;
     box-shadow:0 5px 10px rgba(0,0,0,.2);
 }
 
