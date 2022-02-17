@@ -160,9 +160,7 @@ html{
 
 /**intro section**/
 
-#blank-space-2{
-    margin-bottom:45%;
-}
+
 
 #intro{
     display:flex;
@@ -185,9 +183,8 @@ html{
 #intro-2{
     margin:0 12%;
     display: flex;
-    flex-direction: row;
     align-items:center;
-
+    justify-content:center;
 }
 
 #title-1{
