@@ -264,6 +264,19 @@ html{
     }
 
 }
+
+@media(max-width:606px){
+    #title-1 h2{
+        font-size:3rem;
+    }
+
+    #title-2 h2{
+        font-size:3rem;
+    }
+
+}
+
+
 /*******show work*********/
 
 #show-header{
@@ -272,11 +285,34 @@ html{
     margin-top:6%;
 }
 
-#show-header h2{
+#show-header h1{
     font-size:40px;
     font-weight:400;
     color:rgba(0,0,0,75%);
 }
+
+@-webkit-keyframes scroll{
+    0%{
+        -webkit-transform: translate(-100%,0);
+    }
+    100%{
+        -webkit-transform: translate(0,0);
+    }
+}
+.marquee {
+    display:block;
+    width:100%;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.marquee span {
+    display:inline-block;
+    padding-left:100%;
+    -webkit-animation: scroll 13s infinite linear;
+}
+
+
 
 /**
 
@@ -310,7 +346,7 @@ html{
 
 #show-restaurant:hover{
     cursor:pointer;
-    transform:scale(1.05) ;
+    transform:scale(1.01) ;
     box-shadow:0 5px 10px rgba(0,0,0,.2);
 }
 
@@ -378,7 +414,7 @@ html{
 
 #show-portfolio:hover{
     cursor:pointer;
-    transform:scale(1.05) ;
+    transform:scale(1.01) ;
     box-shadow:0 5px 10px rgba(0,0,0,.2);
 }
 
@@ -448,7 +484,7 @@ html{
  }
 
  #show-play:hover{
-    transform:scale(1.05) ;
+    transform:scale(1.01) ;
     box-shadow:0 5px 10px rgba(0,0,0,.2);
     cursor:pointer;
  }
