@@ -333,12 +333,41 @@
     <!--end of show work------------------------------>
 
     <!--show play------------------------------------->
+    <!--
+    
     <section id="show-header-2">
-        <h2>Play</h2>
+        <svg >
+            <path id="the_rect" d="M172.12 74.5h1094.4v350H172.12z" />
+             <text stroke="#000000" font-size="20">
+                <textPath id="tp" href="#the_rect" startOffset="0%">
+                      Play
+                </textPath>
+              </text>
+          </svg>
     </section>
 
     
+    <script>
+        let so = 0
+function animate2(){
+  requestAnimationFrame(animate2)
+  tp.setAttributeNS(null,"startOffset",so+"%");
+  if(so >= 100){so = 0;}
+  so+= .05
+}
+
+animate2()
+    </script>
+    
+    <section id="show-header-2" height="360px" width="100%">
+        <h2>Play</h2>
+    </section>
+-->
+<section id="show-header-2">
+    <h1>Play</h1>
+
     <section id="show-play" onclick="goPage3()">
+       
         <section id="show-play-left">
             <img src=img2.png>
         </section>
@@ -346,12 +375,46 @@
             <h2>Generative Art</h2>
         </section>
     </section>
+</section>
     
     <script>
     function goPage3(){
         window.location="play_1.html";
     }
     </script>
+
+    
+    
+
+
+<!--
+<svg viewBox="0 0 1411.14 500">
+    <path id="our-text" style="fill:#fff" d="M172.12 74.5h1094.4v350H172.12z"/>
+
+    <text y="40" font-size="40" font-weight=lighter>
+        <textPath id="text-path" class="text" href="#our-text" startOffset=0>
+            Play 
+        </textPath>
+    </text>
+</svg>
+**/
+-->
+
+<!--
+<script>
+    var textPath = document.querySelector('#text-path');
+    function updateTextPathOffset(offset){
+        textPath.setAttribute('startOffset',offset);
+    }
+    function onScroll(){
+        requestAnimationFrame(function(){
+        updateTextPathOffset(window.scrollY * 1.5);
+        })
+    }
+
+    window.addEventListener('scroll',onScroll);
+</script>
+-->
     <!--end of show play----------------------------->
 
     <!--contact------------------------------------------------------------------------->
