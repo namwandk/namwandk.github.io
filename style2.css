@@ -11,6 +11,17 @@
     box-sizing: border-box;
   }
 
+@font-face {
+    font-family: Ogg;
+    src: url(OggThin.ttf);
+}
+
+@font-face {
+    font-family: OggReg;
+    src: url(OggRegular.ttf);
+}
+
+
 html{
     font-size: 10px; 
     font-weight:lighter;
@@ -191,7 +202,7 @@ html{
 
 #title-1{
     width:25%;
-    
+    font-family: Ogg;
     transform:translateY(20%);
     /**
     width:25%;
@@ -199,7 +210,8 @@ html{
 }
 
 #title-2{
-    width:75%;
+    font-family: Ogg;
+    width:100%;
     margin-left:5%;
     transform:translateY(20%);
     /**
@@ -208,16 +220,17 @@ html{
 }
 
 #title-1 h2{
+    text-align:left;
+    font-family: OggReg;
     color:rgb(82.35%,82.35%,82.35%);
-    font-size:50px;
-    font-weight:lighter;
+    font-size:60px;
     /**
     width:100%;**/
 }
 
 #title-2 h2{
-    font-size:50px;
-    font-weight:lighter;
+    font-family: Ogg;
+    font-size:60px;
     color:rgb(82.35%,82.35%,82.35%);
     font-style:italic;
     /**
