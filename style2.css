@@ -12,12 +12,12 @@
   }
 
 @font-face {
-    font-family: Ogg;
+    font-family:Ogg;
     src: url(OggThin.ttf);
 }
 
 @font-face {
-    font-family: OggReg;
+    font-family:OggReg;
     src: url(OggRegular.ttf);
 }
 
@@ -190,9 +190,10 @@ html{
 #intro-2{
     height:100%;
     display:flex;
-    justify-content: center;
     align-items:center;
-    margin:0 12%;
+    justify-content:center;
+    margin:0 3%;
+    line-height:1.2;
     /**
     display: flex;
     align-items:center;
@@ -201,36 +202,38 @@ html{
 }
 
 #title-1{
-    width:25%;
-    font-family: Ogg;
+    width:100%;
     transform:translateY(20%);
     /**
     width:25%;
     transform:translateY(20%);**/
 }
 
+/**
 #title-2{
-    font-family: Ogg;
-    width:100%;
+    width:70%;
     margin-left:5%;
     transform:translateY(20%);
-    /**
+    
     width:75%;
-    margin-left:5%;**/
+    margin-left:5%;
 }
+
+**/
 
 #title-1 h2{
     text-align:left;
-    font-family: OggReg;
+    font-family: Ogg;
     color:rgb(82.35%,82.35%,82.35%);
-    font-size:60px;
+    font-size:90px;
     /**
     width:100%;**/
 }
 
 #title-2 h2{
+    text-align:right;
     font-family: Ogg;
-    font-size:60px;
+    font-size:80px;
     color:rgb(82.35%,82.35%,82.35%);
     font-style:italic;
     /**
@@ -1309,6 +1312,40 @@ ion-icon[name="caret-back-outline"]{
    
 }
 
+.hand{
+    width:6%;
+    height:auto;
+    animation: waving 2.5s infinite;
+    transform-origin: 70% 70%;
+}
+
+@keyframes waving{
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(7deg);
+    }
+    20%{
+        transform: rotate(-8deg);
+    }
+    30%{
+        transform: rotate(14deg);
+    }
+    40%{
+        transform: rotate(-4.0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
 #about-text{
     width:100%;
     display:flex;
@@ -1493,7 +1530,6 @@ ion-icon[name="caret-back-outline"]{
 
 /*******play page**********/
 
-
 #play-blank-space{
     width:100vw;
     height:100px;
@@ -1521,9 +1557,13 @@ ion-icon[name="caret-back-outline"]{
     width:50%;
 }
 
+
+#play-page-img video{
+    width:100%;
+}
+
 #play-page-img img{
     width:100%;
-    height:100%;
 }
 
 #play-page-text{
