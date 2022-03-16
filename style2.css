@@ -12,19 +12,25 @@
   }
 
 @font-face {
-    font-family:Ogg;
-    src: url(OggThin.ttf);
+    font-family:OggMed;
+    src: url(../OggRegular.ttf) format("truetype");
 }
 
 @font-face {
-    font-family:OggReg;
-    src: url(OggRegular.ttf);
+    font-family:OggRegIt;
+    src: url(../OggRegularItalic.ttf) format("truetype");
 }
 
-@font-face {
-    font-family:OggBold;
-    src: url(OggBold.ttf);
+@font-face{
+    font-family:EquitanSans;
+    src: url(../EquitanSans-Regular.otf) format("opentype");
 }
+
+@font-face{
+    font-family:EquitanSansB;
+    src: url(../EquitanSans-Bold.otf) format("opentype");
+}
+
 
 
 html{
@@ -65,6 +71,9 @@ html{
 }
 
 #nav-bar h1{
+    font-family:EquitanSansB;
+    font-weight:normal;
+    font-size:normal;
     font-size:20px;
     font-weight:500;
     color:white;
@@ -82,6 +91,9 @@ html{
 }
 
 .menu li a{
+    font-family:EquitanSans;
+    font-weight:normal;
+    font-size:normal;
     text-align: center;
     font-size:20px;
     padding: 20px;
@@ -90,7 +102,9 @@ html{
 }
 
 #nav-container #nav ul li a:hover{
-    color:grey;
+    /**color:grey;**/
+    font-size:13px;
+    font-family:OggRegIt;
 }
 
 #nav ul li ul{
@@ -174,7 +188,6 @@ html{
 
 /**intro section**/
 
-
 #intro{
     width:100%;
     height: 100%;
@@ -197,8 +210,7 @@ html{
     display:flex;
     align-items:center;
     justify-content:center;
-    margin:0 3%;
-    line-height:1.2;
+    line-height:1.15;
     /**
     display: flex;
     align-items:center;
@@ -208,7 +220,8 @@ html{
 
 #title-1{
     width:100%;
-    transform:translateY(20%);
+    transform:translateY(10%);
+    margin: 0 12%;
     /**
     width:25%;
     transform:translateY(20%);**/
@@ -226,18 +239,25 @@ html{
 
 **/
 
-#title-1 h2{
-    text-align:left;
-    font-family: Ogg;
+.text {
+    font-family:"OggRegIt";
     color:rgb(82.35%,82.35%,82.35%);
-    font-size:90px;
+    font-size:95px;
+    font-weight:normal;
+}
+#title-1 h2{
+    font-family: "OggMed";
+    color:rgb(82.35%,82.35%,82.35%);
+    font-size:95px;
+    font-weight:normal;
+    font-style: normal;
     /**
     width:100%;**/
 }
 
 #title-2 h2{
     text-align:right;
-    font-family: Ogg;
+    font-family: "OggMed";
     font-size:80px;
     color:rgb(82.35%,82.35%,82.35%);
     font-style:italic;
@@ -255,6 +275,7 @@ html{
     #title-2 h2{
         font-size:4rem;
     }
+    
 
 }
 
@@ -307,7 +328,7 @@ html{
 }
 
 #show-header h1{
-    font-family: OggBold;
+    font-family: EquitanSans;
     font-size:40px;
     font-weight:400;
     color:rgba(0,0,0,75%);
@@ -515,7 +536,7 @@ svg{
 }
 
 #show-header-2 h1{
-    font-family: OggBold;
+    font-family: EquitanSans;
     z-index:300;
     margin-bottom:1%;
     animation-timing-function: ease-in-out;
@@ -1142,6 +1163,8 @@ ion-icon[name="caret-back-outline"]{
     margin-top:10%;
 }
 
+
+
 #other-work-section img{
     width:50%;
     border-radius:2rem;
@@ -1293,6 +1316,26 @@ ion-icon[name="caret-back-outline"]{
     margin-left: 12%;
     margin-right:12%;
     margin-top:10%;
+}
+
+
+#other-work-section-2-header h2{
+    animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(20px);
+    }
+
+
+    100%{
+        transform: translateY(0px);
+    }
 }
 
 #other-work-section-2{
@@ -1591,14 +1634,14 @@ ion-icon[name="caret-back-outline"]{
     z-index:300;
     margin-bottom:1%;
     animation-timing-function: ease-in-out;
-    font-size:40px;
+    font-size:50px;
     font-weight:400;
     color:rgba(0,0,0,75%);
     position:absolute;
-    animation: change 15s linear infinite;
+    animation: change2 15s linear infinite;
 }
 
-@keyframes change {
+@keyframes change2 {
     0%{
         top:-10;
         left:0;    
@@ -1664,7 +1707,7 @@ ion-icon[name="caret-back-outline"]{
     margin-right:2%;
     margin-left:2%;
     color:rgba(0,0,0,75%);
-    font-size:40px;
+    font-size:50px;
     font-weight:lighter;
     
 }
