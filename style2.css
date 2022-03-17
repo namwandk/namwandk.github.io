@@ -324,14 +324,14 @@ html{
 #show-header{
     margin-left: 12%;
     margin-right:12%;
-    margin-top:6%;
+    margin-top:4%;
 }
 
 #show-header h1{
     font-family: EquitanSans;
-    font-size:40px;
+    font-size:35px;
     font-weight:400;
-    color:rgba(0,0,0,75%);
+    color:
 }
 
 @-webkit-keyframes scroll{
@@ -448,7 +448,7 @@ html{
 #show-portfolio{
     margin-left: 12%;
     margin-right:12%;
-    margin-top:4%;
+    margin-top:3%;
     border-radius:2rem;
     height:fit-content;
     display:flex;
@@ -481,9 +481,12 @@ html{
 }
 
 #show-port-right h2{
-    font-size:40px;
+    margin-left:2.5%;
+    margin-bottom:1%;
+    font-size:30px;
+    font-family:'Open Sans';
     font-weight:lighter;
-    color:rgba(0,0,0,65%);
+    color:rgba(0,0,0,75%);
 }
 
 /************show play**************/
@@ -499,7 +502,7 @@ svg{
 **/
 @keyframes change {
   0%{
-      top:-50;
+      top:-70;
       left:0;
       
   }
@@ -523,13 +526,13 @@ svg{
   }
   
   100%{
-    top:-50;
+    top:-70;
     left:0;
   }
 }
 
 #show-header-2{
-    margin-top:4%;
+    margin-top:8%;
     margin-left: 12%;
     margin-right:12%;
     position:relative;
@@ -540,11 +543,11 @@ svg{
     z-index:300;
     margin-bottom:1%;
     animation-timing-function: ease-in-out;
-    font-size:40px;
+    font-size:35px;
     font-weight:400;
-    color:rgba(0,0,0,75%);
+    color:black;
     position:absolute;
-    animation: change 15s linear infinite;
+    animation: change 18s linear infinite;
 }
 
 /***
@@ -583,7 +586,7 @@ svg{
     width:50%;
  }
  
- #show-play-left img{
+ #show-play-left video{
     border-top-left-radius:2rem;
     border-bottom-left-radius: 2rem;
     max-width:350px;
@@ -600,9 +603,11 @@ svg{
  }
 
  #show-play-right h2{
-    font-size:40px;
+    font-size:30px;
+    font-family:'Open Sans';
     font-weight:lighter;
-    color:rgba(0,0,0,65%);
+    color:rgba(0,0,0,75%);
+    margin-bottom:1%;
 }
 
  
@@ -1040,7 +1045,6 @@ ion-icon[name="caret-back-outline"]{
 
 
 #blank-space{
-    border: solid red;
     width:100vw;
     height:100px;
 }
@@ -1180,21 +1184,21 @@ ion-icon[name="caret-back-outline"]{
 /**-----------------------portfoliowork page---------------------------------**/
 
 #blank-space-two{
-    border:solid green;
     width:100vw;
     height:100px;
 }
 
 
 #workpage-title-section-2 {
+    margin-top:5%;
     margin-left:12%;
     margin-right:12%;
 }
 
 #workpage-title-section-2 h1{
-    font-size:40px;
-    font-weight:400;
-    color:rgba(0,0,0,75%);
+    font-family:EquitanSans;
+    font-size:35px;
+    color:black;
     
 }
 
@@ -1216,39 +1220,45 @@ ion-icon[name="caret-back-outline"]{
 .marquee2 span {
     display:inline-block;
     padding-left:100%;
-    -webkit-animation: scroll 10s infinite linear;
+    -webkit-animation: scroll 18s infinite linear;
 }
 
-#portfolioweb-section h1{
-    margin-left:12%;
-    margin-right:12%;
-    color:rgba(0,0,0,75%);
-    margin-top:4%;
-    font-size:40px;
-    font-weight:lighter;
-}
 
 #brief-section-2 h1{
     margin-left:12%;
     margin-right:12%;
+    margin-top:5%;
+    margin-bottom:1%;
     color:rgba(0,0,0,75%);
-    margin-top:4%;
-    font-size:40px;
-    font-weight:lighter;
+    font-size:30px;
+    font-family:EquitanSans;
 }
 
 #brief-section-2 p{
+    line-height: 150%;
+    color:rgba(0,0,0,75%);
     margin-left:12%;
     margin-right:12%;
+    font-family:'Open Sans';
+    font-size:20px;
 }
 
 #approach-section-2 h1{
     margin-left:12%;
     margin-right:12%;
     color:rgba(0,0,0,75%);
-    font-size:40px;
-    font-weight:lighter;
+    font-size:30px;
+    font-family:EquitanSans;
     margin-top:4%;
+    margin-bottom:1%;
+}
+
+#approach-section-2 p{
+    font-size:20px;
+    line-height: 150%;
+    font-family:'Open Sans';
+    color:rgba(0,0,0,75%);
+    margin-bottom:2%;
 }
 
 #approach-img-2{
@@ -1256,49 +1266,48 @@ ion-icon[name="caret-back-outline"]{
     margin-right:12%;
 }
 
-#approach-img-2 img{
-    height:auto;
-    width:100%;
-}
-
 #wireframe-section-2 h1{
     margin-left:12%;
     margin-right:12%;
     color:rgba(0,0,0,75%);
-    font-size:40px;
-    font-weight:lighter;
+    font-size:30px;
+    font-family:EquitanSans;
     margin-top:4%;
+    margin-bottom:1%;
 }
 
 #wireframe-img-2{
+    box-shadow:0 10px 5px rgba(0,0,0,.05);
+    border-radius:2rem;
     margin-left:12%;
     margin-right:12%;
 }
 
 #wireframe-img-2 img{
+    border-radius:2rem;
     height:auto;
     width:100%;
 }
 
-#color-section-2 h1{
+#color-section-2{
     margin-left:12%;
     margin-right:12%;
-    color:rgba(0,0,0,75%);
-    font-size:40px;
-    font-weight:lighter;
-    margin-top:4%;
 }
 
-#color-section-2 p{
-    margin-left:12%;
-    margin-right:12%;
+#color-section-2 h1{
+    margin-top:5%;
+    margin-bottom:2%;
+    color:rgba(0,0,0,75%);
+    font-size: 30px;
+    font-family:EquitanSans;
 }
 
 #prototype-section-2 h1{
-    color:rgba(0,0,0,75%);
-    font-size:40px;
-    font-weight:lighter;
     margin-top:4%;
+    margin-bottom:2%;
+    color:rgba(0,0,0,75%);
+    font-size:30px;
+    font-family:EquitanSans;
 }
 
 #prototype-section-2-img img{
@@ -1306,20 +1315,58 @@ ion-icon[name="caret-back-outline"]{
     width:100%;
 }
 
+#color-section-2{
+    margin: 0 12%;
+}
+
+#color-palette{
+    width:100%;
+    height:10%;
+    background:linear-gradient(to right, white, lightgrey,grey,black);
+}
+
+#prototype-section-2-video video{
+    height:80%;
+    width:100%;
+}
+
 #prototype-section-2 {
     margin-left:12%;
     margin-right:12%;
-    margin-bottom:4%;
+    margin-top:4%;
+}
+
+#findings-section-2 h1{
+    margin-top:5%;
+    margin-bottom:1%;
+    color:rgba(0,0,0,75%);
+    font-size:30px;
+    font-family:EquitanSans;
+}
+
+#findings-section-2 p{
+    line-height:150%;
+    color:rgba(0,0,0,75%);
+    font-family:'Open Sans';
+    font-size:20px;
+}
+
+#findings-section-2{
+    margin:0 12%;
 }
 
 #other-work-section-2-header{
     margin-left: 12%;
     margin-right:12%;
-    margin-top:10%;
+    margin-top:4%;
+    margin-bottom:2.5%;
 }
 
 
 #other-work-section-2-header h2{
+    color:rgba(0,0,0,75%);
+    font-family:EquitanSans;
+    font-size:30px;
     animation: bounce 2s infinite ease-in-out;
 }
 
@@ -1339,8 +1386,6 @@ ion-icon[name="caret-back-outline"]{
 }
 
 #other-work-section-2{
-    margin-top:4%;
-    margin-bottom:4%;
     width:25%;
     transition:all .2s ease-in-out;
     border-radius:2rem;
@@ -1390,7 +1435,7 @@ ion-icon[name="caret-back-outline"]{
 }
 
 .hand{
-    width:6%;
+    width:3%;
     height:auto;
     animation: waving 2.5s infinite;
     transform-origin: 70% 70%;
@@ -1423,28 +1468,31 @@ ion-icon[name="caret-back-outline"]{
     }
 }
 
+#about-title{
+    margin: 0 12%;
+}
+
+#about-title h1{
+    margin-top:5%;
+    margin-bottom:8%;
+    color:BLACK;
+    font-size:35px;
+    font-family:EquitanSans;
+}
 #about-text{
     width:100%;
     display:flex;
     flex-direction:column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #about-text h2{
-    margin-right:2%;
-    margin-left:2%;
+    line-height:150%;
+    margin: 2% 2.5%;
     font-size:20px;
-    font-weight:lighter;
-}
-
-#about-text h1{
-    margin-right:2%;
-    margin-left:2%;
     color:rgba(0,0,0,75%);
-    font-size:40px;
+    font-family:'Open Sans';
     font-weight:lighter;
-    
-
 }
 
 
@@ -1624,22 +1672,25 @@ ion-icon[name="caret-back-outline"]{
 **/
 
 #play-page-header {
+    margin-top:5%;
     margin-left: 12%;
     margin-right:12%;
     position:relative;
 }
 
 #play-page-header h1{
-    font-family: OggBold;
+    font-family: EquitanSans;
     z-index:300;
     margin-bottom:1%;
     animation-timing-function: ease-in-out;
-    font-size:50px;
+    font-size:35px;
     font-weight:400;
-    color:rgba(0,0,0,75%);
+    color:black;
     position:absolute;
     animation: change2 15s linear infinite;
 }
+
+
 
 @keyframes change2 {
     0%{
@@ -1647,22 +1698,22 @@ ion-icon[name="caret-back-outline"]{
         left:0;    
     }
   
-    25%{top:100%;
+    25%{top:50%;
       left:50%;
-      transform:rotate(100deg);
+      transform:rotate(50deg);
   
     }
   
     50%{
       top:20%;
-        left:100%;
-        transform:rotate(200deg);
+        left:75%;
+        transform:rotate(0deg);
     }
   
     75%{
-      top:70%;
+      top:40%;
       left:30%;
-      transform:rotate(100deg);
+      transform:rotate(40deg);
     }
     
     100%{
@@ -1671,10 +1722,17 @@ ion-icon[name="caret-back-outline"]{
     }
   }
   
-
+  #play-page-1{
+    margin-top:13%;
+    margin-left:12%;
+    margin-right:12%;
+    display:flex;
+    border-radius: 2rem;
+    box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
 
 #play-page{
-    margin-top:4%;
+    margin-top:7%;
     margin-left:12%;
     margin-right:12%;
     display:flex;
@@ -1704,18 +1762,20 @@ ion-icon[name="caret-back-outline"]{
 }
 
 #play-page-text h1{
-    margin-right:2%;
-    margin-left:2%;
+    margin:2% 2.5%;
     color:rgba(0,0,0,75%);
-    font-size:50px;
-    font-weight:lighter;
+    font-size:30px;
+    font-family:EquitanSans;
     
 }
 
 #play-page-text h2{
-    margin:0 2%;
+    margin:2% 2.5%;
+    line-height:150%;
+    color:rgba(0,0,0,75%);
+    font-family:'Open Sans';
+    font-size:20px;
     font-weight:lighter;
-    font-size: 20px;
 }
 
 /*****end of play page*****/
