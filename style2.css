@@ -643,103 +643,24 @@ svg{
 
 @media(max-width:1066px){
 
-    @keyframes change {
-        0%{
-            top:-40;
-            left:0;
-            
-        }
-      
-        25%{top:100%;
-          left:50%;
-          transform:rotate(100deg);
-      
-        }
-      
-        50%{
-          top:50%;
-            left:100%;
-            transform:rotate(200deg);
-        }
-      
-        75%{
-          top:50%;
-          left:0%;
-          transform:rotate(100deg);
-        }
-        
-        100%{
-          top:-40;
-          left:0;
-        }
-      }
-
     #show-header h1{
-        font-size:25px;
+        font-size:20px;
     }
 
     #show-port-right h2{
-        font-size:20px;
+        font-size:16px;
     }
 
     #show-play-right h2{
-        font-size:20px;
+        font-size:16px;
     }
 
     #show-header-2 h1{
-        font-size:25px;
+        font-size:20px;
     }
 }
 
-    @media(max-width:450px){
-
-        @keyframes change {
-            0%{
-                top:-5%;
-                left:0;
-                
-            }
-          
-            25%{top:100%;
-              left:50%;
-              transform:rotate(100deg);
-          
-            }
-          
-            50%{
-              top:50%;
-                left:100%;
-                transform:rotate(200deg);
-            }
-          
-            75%{
-              top:50%;
-              left:0%;
-              transform:rotate(100deg);
-            }
-            
-            100%{
-              top:-5%;
-              left:0;
-            }
-          }
-
-        #show-header h1{
-            font-size:20px;
-        }
     
-        #show-port-right h2{
-            font-size:16px;
-        }
-    
-        #show-play-right h2{
-            font-size:16px;
-        }
-    
-        #show-header-2 h1{
-            font-size:20px;
-        }
-    }
 
  
 
@@ -1536,6 +1457,54 @@ ion-icon[name="caret-back-outline"]{
     box-shadow:0 5px 10px rgba(0,0,0,.2);
 }
 
+
+@media(max-width:1066px){
+
+    #workpage-title-section-2 h1{
+        font-size:25px;
+    }
+
+    #brief-section-2 h1{
+        font-size:20px;
+    }
+
+    #brief-section-2 p{
+        font-size:16px;
+    }
+
+    #approach-section-2 h1{
+        font-size:20px;
+    }
+
+    #approach-section-2 p{
+        font-size:16px;
+    }
+
+    #wireframe-section-2 h1{
+        font-size:20px;
+    }
+
+    #color-section-2 h1{
+        font-size:20px;
+    }
+
+    #prototype-section-2 h1{
+        font-size:20px;
+    }
+
+    #findings-section-2 h1{
+        font-size:20px;
+    }
+
+    #findings-section-2 p{
+        font-size:16px;
+    }
+
+    #other-work-section-2-header h2{
+        font-size:20px;
+    }
+}
+
 /**-----------------------portfoliowork page---------------------------------**/
 /**-------------------------------about page---------------------------------**/
 
@@ -1907,6 +1876,28 @@ ion-icon[name="caret-back-outline"]{
     font-family:'Open Sans';
     font-size:20px;
     font-weight:lighter;
+}
+
+@media(max-width:1066px){
+
+    #play-page-header h1{
+
+    }
+    #show-header h1{
+        font-size:20px;
+    }
+
+    #show-port-right h2{
+        font-size:16px;
+    }
+
+    #show-play-right h2{
+        font-size:16px;
+    }
+
+    #show-header-2 h1{
+        font-size:20px;
+    }
 }
 
 /*****end of play page*****/
